@@ -1,0 +1,28 @@
+<section id="todoapp">
+	<header id="header">
+		<h1>Tasks</h1>
+		{{task-input id="new-todo" type="text" value=newTitle action="createTask" placeholder="What needs to be done?"}}
+	</header>
+	{{outlet}}
+	{{#if length}}
+		<footer id="footer">
+			<span id="todo-count"><strong>{{remaining.length}}</strong> {{pluralize 'item' remaining.length}} left</span>
+			<ul id="filters">
+				<li>
+					{{#link-to "tasks.index" activeClass="selected"}}All{{/link-to}}
+				</li>
+				<li>
+					{{#link-to "tasks.active" activeClass="selected"}}Active{{/link-to}}
+				</li>
+				<li>
+					{{#link-to "tasks.completed" activeClass="selected"}}Completed{{/link-to}}
+				</li>
+			</ul>
+			{{#if completed.length}}
+				<button id="clear-completed" {{action "clearCompleted"}}>
+					Clear completed ({{completed.length}})
+				</button>
+			{{/if}}
+		</footer>
+	{{/if}}
+</section>
