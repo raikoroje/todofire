@@ -31,8 +31,7 @@ export default Ember.ArrayController.extend({
 			// Create the new Task model
 			task = this.store.createRecord('task', {
 				title: title,
-				isCompleted: false,
-				description:'hello'
+				isCompleted: false
 			});
 			task.save();
 

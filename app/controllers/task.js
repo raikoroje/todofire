@@ -26,7 +26,6 @@ export default Ember.ObjectController.extend({
 			} else {
 				var task = this.get('model');
 				task.set('title', bufferedTitle);
-				task.set('description', 'foobar');
 				task.save();
 			}
 
