@@ -1,6 +1,8 @@
 # Todofire
 A sample todo application using ember-cli + emberfire (Firebase hook for ember data)
 
+*[Demo](https://glowing-fire-7321.firebaseapp.com/)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
