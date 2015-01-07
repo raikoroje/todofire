@@ -29,7 +29,9 @@ You will need the following things properly installed on your computer.
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* `ember build --environment production` (production)
+* `firebase init` (deployment folder is "dist")
+* `firebase deploy`
 
 ## Further Reading / Useful Links
 
