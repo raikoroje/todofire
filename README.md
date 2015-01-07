@@ -6,7 +6,7 @@ A sample todo application using ember-cli + emberfire (Firebase hook for ember d
 You will need the following things properly installed on your computer.
 
 * [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+
 
 ## Installation
 
