@@ -1,5 +1,5 @@
 # Todofire
-A sample todo application using ember-cli + emberfire (Firebase hook for ember data)
+A sample realtime todo application using ember-cli + emberfire (Firebase hook for ember data)
 
 [Demo glowing-fire-7321.firebaseapp.com](https://glowing-fire-7321.firebaseapp.com/)
 
